@@ -1,0 +1,57 @@
+export interface Region {
+  code: string;
+  name: string;
+  lat: number;
+  lon: number;
+  jmaAreaCode: string;
+}
+
+export const REGIONS: Region[] = [
+  { code: "016000", name: "北海道（札幌）", lat: 43.06, lon: 141.35, jmaAreaCode: "016000" },
+  { code: "020000", name: "青森県", lat: 40.82, lon: 140.74, jmaAreaCode: "020000" },
+  { code: "030000", name: "岩手県", lat: 39.70, lon: 141.15, jmaAreaCode: "030000" },
+  { code: "040000", name: "宮城県", lat: 38.27, lon: 140.87, jmaAreaCode: "040000" },
+  { code: "050000", name: "秋田県", lat: 39.72, lon: 140.10, jmaAreaCode: "050000" },
+  { code: "060000", name: "山形県", lat: 38.24, lon: 140.34, jmaAreaCode: "060000" },
+  { code: "070000", name: "福島県", lat: 37.75, lon: 140.47, jmaAreaCode: "070000" },
+  { code: "080000", name: "茨城県", lat: 36.34, lon: 140.45, jmaAreaCode: "080000" },
+  { code: "090000", name: "栃木県", lat: 36.57, lon: 139.88, jmaAreaCode: "090000" },
+  { code: "100000", name: "群馬県", lat: 36.39, lon: 139.06, jmaAreaCode: "100000" },
+  { code: "110000", name: "埼玉県", lat: 35.86, lon: 139.65, jmaAreaCode: "110000" },
+  { code: "120000", name: "千葉県", lat: 35.61, lon: 140.12, jmaAreaCode: "120000" },
+  { code: "130000", name: "東京都", lat: 35.68, lon: 139.77, jmaAreaCode: "130000" },
+  { code: "140000", name: "神奈川県", lat: 35.45, lon: 139.64, jmaAreaCode: "140000" },
+  { code: "150000", name: "新潟県", lat: 37.90, lon: 139.02, jmaAreaCode: "150000" },
+  { code: "160000", name: "富山県", lat: 36.70, lon: 137.21, jmaAreaCode: "160000" },
+  { code: "170000", name: "石川県", lat: 36.59, lon: 136.63, jmaAreaCode: "170000" },
+  { code: "180000", name: "福井県", lat: 36.07, lon: 136.22, jmaAreaCode: "180000" },
+  { code: "190000", name: "山梨県", lat: 35.66, lon: 138.57, jmaAreaCode: "190000" },
+  { code: "200000", name: "長野県", lat: 36.23, lon: 138.18, jmaAreaCode: "200000" },
+  { code: "210000", name: "岐阜県", lat: 35.39, lon: 136.72, jmaAreaCode: "210000" },
+  { code: "220000", name: "静岡県", lat: 34.98, lon: 138.38, jmaAreaCode: "220000" },
+  { code: "230000", name: "愛知県", lat: 35.18, lon: 136.91, jmaAreaCode: "230000" },
+  { code: "240000", name: "三重県", lat: 34.73, lon: 136.51, jmaAreaCode: "240000" },
+  { code: "250000", name: "滋賀県", lat: 35.00, lon: 135.87, jmaAreaCode: "250000" },
+  { code: "260000", name: "京都府", lat: 35.02, lon: 135.76, jmaAreaCode: "260000" },
+  { code: "270000", name: "大阪府", lat: 34.69, lon: 135.52, jmaAreaCode: "270000" },
+  { code: "280000", name: "兵庫県", lat: 34.69, lon: 135.18, jmaAreaCode: "280000" },
+  { code: "290000", name: "奈良県", lat: 34.69, lon: 135.83, jmaAreaCode: "290000" },
+  { code: "300000", name: "和歌山県", lat: 34.23, lon: 135.17, jmaAreaCode: "300000" },
+  { code: "310000", name: "鳥取県", lat: 35.50, lon: 134.24, jmaAreaCode: "310000" },
+  { code: "320000", name: "島根県", lat: 35.47, lon: 133.05, jmaAreaCode: "320000" },
+  { code: "330000", name: "岡山県", lat: 34.66, lon: 133.93, jmaAreaCode: "330000" },
+  { code: "340000", name: "広島県", lat: 34.40, lon: 132.46, jmaAreaCode: "340000" },
+  { code: "350000", name: "山口県", lat: 34.19, lon: 131.47, jmaAreaCode: "350000" },
+  { code: "360000", name: "徳島県", lat: 34.07, lon: 134.56, jmaAreaCode: "360000" },
+  { code: "370000", name: "香川県", lat: 34.34, lon: 134.04, jmaAreaCode: "370000" },
+  { code: "380000", name: "愛媛県", lat: 33.84, lon: 132.77, jmaAreaCode: "380000" },
+  { code: "390000", name: "高知県", lat: 33.56, lon: 133.53, jmaAreaCode: "390000" },
+  { code: "400000", name: "福岡県", lat: 33.61, lon: 130.42, jmaAreaCode: "400000" },
+  { code: "410000", name: "佐賀県", lat: 33.25, lon: 130.30, jmaAreaCode: "410000" },
+  { code: "420000", name: "長崎県", lat: 32.74, lon: 129.87, jmaAreaCode: "420000" },
+  { code: "430000", name: "熊本県", lat: 32.79, lon: 130.74, jmaAreaCode: "430000" },
+  { code: "440000", name: "大分県", lat: 33.24, lon: 131.61, jmaAreaCode: "440000" },
+  { code: "450000", name: "宮崎県", lat: 31.91, lon: 131.42, jmaAreaCode: "450000" },
+  { code: "460100", name: "鹿児島県", lat: 31.56, lon: 130.56, jmaAreaCode: "460100" },
+  { code: "471000", name: "沖縄県", lat: 26.34, lon: 127.68, jmaAreaCode: "471000" },
+];
